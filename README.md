@@ -52,7 +52,7 @@ nums.collect do |num|
 end
 
 ~~~validation 
-answer = [2, 4, 9, 16]
+answer = [1, 4, 9, 16]
 
 assert.strictEqual(response, answer);
 ```
