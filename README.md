@@ -63,7 +63,7 @@ assert.strictEqual(response, answer);
 
 ### Code Challenge III: Using `.select`
 
-Below we have a variable, `odds_and_evens`, set equal to an array of numbers. Use the `.select` enumerator to iteratre of the array and return any even numbers. This about how to check if a number is even. Maybe google "how to check if a number is even ruby" or something like that...
+Below we have a variable, `odds_and_evens`, set equal to an array of numbers. Use the `.select` enumerator to iterate over the array and return any even numbers. This about how to check if a number is even. Maybe google "how to check if a number is even ruby" or something like that...
 
 ```ruby
 odds_and_evens = [1, 3, 2, 18, 5, 10, 24]
