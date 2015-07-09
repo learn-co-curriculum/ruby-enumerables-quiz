@@ -28,9 +28,7 @@ end
 
 ~~~validation
 
-correct = "pizza\nsandwhich\nsushi\nsoup\nsalad"
-
-assert.strictEqual(response, correct);
+assert.strictEqual(response, "pizza\nsandwhich\nsushi\nsoup\nsalad");
 
 ~~~
 
@@ -56,9 +54,7 @@ end
 
 ~~~validation
 
-answer = [1, 4, 9, 16]
-
-assert.strictEqual(response, answer);
+assert.strictEqual(response, [1, 4, 9, 16]);
 
 ~~~
 
@@ -84,9 +80,7 @@ end
 
 ~~~validation
 
-answer = [2, 18, 10, 24]
-
-assert.strictEqual(response, answer);
+assert.strictEqual(response, [2, 18, 10, 24]);
 
 ~~~
 
@@ -112,9 +106,7 @@ end
 
 ~~~validation 
 
-answer = 1
-
-assert.strictEqual(response, answer);
+assert.strictEqual(response, 1);
 
 ~~~
 
@@ -140,9 +132,7 @@ end
 
 ~~~validation
 
-answer = ["cat", "cat", "cat"]
-
-assert.strictEqual(response, answer);
+assert.strictEqual(response, ["cat", "cat", "cat"]);
 
 ~~~
 
