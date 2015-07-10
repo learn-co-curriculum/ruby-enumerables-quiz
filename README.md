@@ -56,7 +56,7 @@ end
 
 ~~~validation
 
-assert.equal(response, [1, 4, 9, 16]);
+assert.deepEqual(response, [1, 4, 9, 16]);
 
 ~~~
 
