@@ -30,7 +30,7 @@ end
 
 ~~~validation
 
-assert.equal(response, ["pizza!", "sandwhich!", "sushi!", "soup!", "salad!"]);
+assert.deepEqual(response, ["pizza!", "sandwhich!", "sushi!", "soup!", "salad!"]);
 
 ~~~
 
@@ -82,7 +82,7 @@ end
 
 ~~~validation
 
-assert.equal(response, [2, 18, 10, 24]);
+assert.deepEqual(response, [2, 18, 10, 24]);
 
 ~~~
 
@@ -108,7 +108,7 @@ end
 
 ~~~validation 
 
-assert.equal(response, 1);
+assert.deepEqual(response, 1);
 
 ~~~
 
@@ -134,7 +134,7 @@ end
 
 ~~~validation
 
-assert.equal(response, ["cat", "cat", "cat"]);
+assert.deepEqual(response, ["cat", "cat", "cat"]);
 
 ~~~
 
@@ -158,7 +158,7 @@ famous_cats.include?("Maru")
 
 ~~~validation
 
-assert.equal(response, true);
+assert.deepEqual(response, true);
 
 ~~~
 
@@ -184,7 +184,7 @@ end
 
 ~~~validation
 
-assert.equal(response, true);
+assert.deepEqual(response, true);
 
 ~~~
 
