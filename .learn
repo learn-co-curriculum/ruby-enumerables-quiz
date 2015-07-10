@@ -1,4 +1,4 @@
-tags: 
+tags:
   - enums
   - each
   - collect
@@ -10,5 +10,5 @@ tags:
   - repl
 language: 
   - ruby
- resources: 
+resources: 
   - 0
