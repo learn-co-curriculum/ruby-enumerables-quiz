@@ -1,6 +1,6 @@
 # Enumerator Coding Challenge
 
-## Ojbectives
+## Objectives
 
 Become familiar using common iterators introduced in the previous lesson.
 
