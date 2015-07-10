@@ -12,7 +12,9 @@ Become familiar using common iterators introduced in the previous lesson.
 Let's try out the enumerator methods we just learned. Refer back to the previous lesson to help you pass this challenge. 
 
 
-Below, we have a variable, `lunch_menu`, set equal to an array of lunch menu items. Use the `.each` method to enumerate over the array and puts out each menu item. 
+Below, we have a variable, `lunch_menu`, set equal to an array of lunch menu items.
+
+Since you're super hungry and super excited about lunch, use the `.each` method to enumerate over the array and append a "!" to each menu item. You can use the `<<` on each menu item string to add an "!". Like this: "pizza" << "!" 
 
 ~~~ruby 
 
@@ -23,12 +25,12 @@ lunch_menu = ["pizza", "sandwhich", "sushi", "soup", "salad"]
 ~~~solution
 
 lunch_menu.each do |lunch_item|
-	puts lunch_item
+	lunch_item << "!""
 end
 
 ~~~validation
 
-assert.strictEqual(response, "pizza\nsandwhich\nsushi\nsoup\nsalad");
+assert.strictEqual(response, ["pizza!", "sandwhich!", "sushi!", "soup!", "salad!"]);
 
 ~~~
 
