@@ -154,7 +154,7 @@ famous_cats = ["Maru", "Lil' Bub", "Grumpy Cat"]
 
 famous_cats.include?("Maru")
 
-~~~validatioin
+~~~validation
 
 assert.strictEqual(response, true);
 
