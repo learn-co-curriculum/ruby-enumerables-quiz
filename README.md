@@ -72,7 +72,7 @@ Below we have a variable, `odds_and_evens`, set equal to an array of numbers. Us
 
 odds_and_evens = [1, 3, 2, 18, 5, 10, 24]
 
-#code your solution using .collect here
+#code your solution using .select here
 
 ~~~solution
 
@@ -148,7 +148,7 @@ Below we have a variable, `famous_cats`, set equal to an array of famous cats. U
 
 ~~~ruby
 
-famous_cats = ["Maru", "Lil' Bub", "Grumpy Cat"]
+famous_cats = ["Maru", "Lil Bub", "Grumpy Cat"]
 
 #code your solution using .indlude? here
 
