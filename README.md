@@ -25,7 +25,7 @@ lunch_menu = ["pizza", "sandwhich", "sushi", "soup", "salad"]
 ~~~solution
 
 lunch_menu.each do |lunch_item|
-	lunch_item << "!""
+	lunch_item << "!"
 end
 
 ~~~validation
