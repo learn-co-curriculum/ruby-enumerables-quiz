@@ -2,7 +2,7 @@
 
 ## Objectives
 
-Become familiar using common iterators introduced in the previous lesson.
+Become familiar with using common iterators introduced in the previous lesson.
 
 
 %%%
@@ -14,7 +14,7 @@ Let's try out the enumerator methods we just learned. Refer back to the previous
 
 Below, we have a variable, `lunch_menu`, set equal to an array of lunch menu items.
 
-Since you're super hungry and super excited about lunch, use the `.each` method to enumerate over the array and append a "!" to each menu item. You can use the `<<` on each menu item string to add an "!". Like this: "pizza" << "!" 
+Since you're super hungry and super excited about lunch, use the `.each` method to enumerate over the array and append an `"!"` ("exclamation mark") to each menu item. You can use the `<<` ("shovel operator") on each menu item string to add an `"!"` like this: `"pizza" << "!"`.
 
 ~~~ruby 
 
@@ -40,7 +40,7 @@ assert_equal(response, ["pizza!", "sandwhich!", "sushi!", "soup!", "salad!"])
 
 ### Code Challenge II: Using `.collect`
 
-Below we have a variable, `nums`, set equal to an array of numbers. Enumerate over the array with the `.collect` method and return a new array of the same numbers, squared. 
+Below we have a variable, `nums`, set equal to an array of numbers. Enumerate over the array with the `.collect` method and return a new array of the squares of those numbers. 
 
 ~~~ruby
 
@@ -66,7 +66,7 @@ assert_equal(response, [1, 4, 9, 16])
 
 ### Code Challenge III: Using `.select`
 
-Below we have a variable, `odds_and_evens`, set equal to an array of numbers. Use the `.select` enumerator to iterate over the array and return any even numbers. This about how to check if a number is even. Maybe google "how to check if a number is even ruby" or something like that...
+Below we have a variable, `odds_and_evens`, set equal to an array of numbers. Use the `.select` enumerator to iterate over the array and return any even numbers. This requires checking if a number is even. If you're unsure how to do that, reference the Ruby Documentation or try a google search!
 
 ~~~ruby
 
@@ -118,7 +118,7 @@ assert_equal(response, 1)
 
 ### Code Challenge V: Using `delete_if`
 
-Below we have a variable, `cats_and_dogs`, set equal to an array of strings that are either cats or dogs. We all know that cats and dogs don't get along. Iterate over the array and delete from it any items that are dogs. 
+Below we have a variable, `cats_and_dogs`, set equal to an array of strings that are either a `"cat"` or a  `"dog"`. We all know that cats and dogs don't get along. Iterate over the array and delete the elements that represent dogs. 
 
 ~~~ruby
 
@@ -144,7 +144,7 @@ assert_equal(response, ["cat", "cat", "cat"])
 
 ### Code Challenge VI: Using `include?`
 
-Below we have a variable, `famous_cats`, set equal to an array of famous cats. Use the `.include?` method to check and see if the array includes the string "Maru". 
+Below we have a variable, `famous_cats`, set equal to an array of famous cats. Use the `.include?` method to check and see if the array includes the string `"Maru"`. 
 
 ~~~ruby
 
@@ -168,7 +168,7 @@ assert_equal(response, true)
 
 ### Code Challenge VII: Using `any?`
 
-Below we have a variable, `quiet_and_loud`, that is set equal to an array of strings. Use the `.any?` method to iteratore over the array to determine if any of the words contained there are loud, or upcased. 
+Below we have a variable, `quiet_and_loud`, that is set equal to an array of strings. Use the `.any?` method to iteratore over the array to determine if any of the words contained there are loud (upcased). 
 
 ~~~ruby
 
