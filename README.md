@@ -106,7 +106,7 @@ odds_and_evens.find do |num|
 	num.odd?
 end
 
-~~~validation 
+~~~validation
 
 assert_equal(response, 1)
 
