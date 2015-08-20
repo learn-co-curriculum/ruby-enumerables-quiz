@@ -150,7 +150,7 @@ Below we have a variable, `famous_cats`, set equal to an array of famous cats. U
 
 famous_cats = ["Maru", "Lil Bub", "Grumpy Cat"]
 
-#code your solution using .indlude? here
+#code your solution using .include? here
 
 ~~~solution
 
