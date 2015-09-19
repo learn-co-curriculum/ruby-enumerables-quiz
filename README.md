@@ -168,7 +168,7 @@ assert_equal(response, true)
 
 ### Code Challenge VII: Using `any?`
 
-Below we have a variable, `quiet_and_loud`, that is set equal to an array of strings. Use the `.any?` method to iteratore over the array to determine if any of the words contained there are loud (upcased). 
+Below we have a variable, `quiet_and_loud`, that is set equal to an array of strings. Use the `.any?` method to iterate over the array to determine if any of the words contained there are loud (upcased). 
 
 ~~~ruby
 
