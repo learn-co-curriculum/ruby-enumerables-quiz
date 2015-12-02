@@ -190,3 +190,5 @@ assert_equal(response, true)
 
 %%%
 
+
+<a href='https://learn.co/lessons/enumerator-coding-challenge' data-visibility='hidden'>View this lesson on Learn.co</a>
