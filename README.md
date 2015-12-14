@@ -18,7 +18,7 @@ Since you're super hungry and super excited about lunch, use the `.each` method 
 
 ~~~ruby 
 
-lunch_menu = ["pizza", "sandwhich", "sushi", "soup", "salad"]
+lunch_menu = ["pizza", "sandwich", "sushi", "soup", "salad"]
 
 #code your solution using .each here
 
