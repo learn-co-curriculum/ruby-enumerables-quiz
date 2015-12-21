@@ -30,7 +30,7 @@ end
 
 ~~~validation
 
-assert_equal(response, ["pizza!", "sandwhich!", "sushi!", "soup!", "salad!"])
+assert_equal(response, ["pizza!", "sandwich!", "sushi!", "soup!", "salad!"])
 
 ~~~
 
