@@ -46,7 +46,7 @@ Below we have a variable, `nums`, set equal to an array of numbers. Enumerate ov
 
 nums = [1, 2, 3, 4]
 
-#code you solution using .collect here
+#code your solution using .collect here
 
 ~~~solution 
 
@@ -192,3 +192,5 @@ assert_equal(response, true)
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/enumerator-coding-challenge' title='Enumerator Coding Challenge'>Enumerator Coding Challenge</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/enumerator-coding-challenge'>Enumerators Code Challenge</a> on Learn.co and start learning to code for free.</p>
