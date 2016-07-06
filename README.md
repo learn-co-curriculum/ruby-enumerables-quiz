@@ -231,7 +231,7 @@ quiet_and_loud.any? { |w| w.upcase }
 ```
 ( )
 ``` ruby
-quiet_and_loud.any? { w| w.upcase? }
+quiet_and_loud.any? { |w| w.upcase? }
 ```
 (x)
 ``` ruby
